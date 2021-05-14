@@ -18,6 +18,10 @@
 		E32CB468264E945D00C2DFB3 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = E32CB465264E945D00C2DFB3 /* word_blank.png */; };
 		E32CB469264E945D00C2DFB3 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = E32CB466264E945D00C2DFB3 /* fin.png */; };
 		E32CB46A264E945D00C2DFB3 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E32CB467264E945D00C2DFB3 /* title_logo.png */; };
+		E32CB46C264E9E2100C2DFB3 /* ListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB46B264E9E2100C2DFB3 /* ListTableTableViewController.swift */; };
+		E32CB46E264E9E4400C2DFB3 /* QuesrionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB46D264E9E4400C2DFB3 /* QuesrionViewController.swift */; };
+		E32CB470264E9E5700C2DFB3 /* FiniishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB46F264E9E5700C2DFB3 /* FiniishViewController.swift */; };
+		E32CB472264E9E6D00C2DFB3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB471264E9E6D00C2DFB3 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		E32CB465264E945D00C2DFB3 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
 		E32CB466264E945D00C2DFB3 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
 		E32CB467264E945D00C2DFB3 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		E32CB46B264E9E2100C2DFB3 /* ListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableTableViewController.swift; sourceTree = "<group>"; };
+		E32CB46D264E9E4400C2DFB3 /* QuesrionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesrionViewController.swift; sourceTree = "<group>"; };
+		E32CB46F264E9E5700C2DFB3 /* FiniishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiniishViewController.swift; sourceTree = "<group>"; };
+		E32CB471264E9E6D00C2DFB3 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,10 @@
 				E32CB43A264E941200C2DFB3 /* Main.storyboard */,
 				E32CB43D264E941E00C2DFB3 /* Assets.xcassets */,
 				E32CB442264E941E00C2DFB3 /* Info.plist */,
+				E32CB46B264E9E2100C2DFB3 /* ListTableTableViewController.swift */,
+				E32CB46D264E9E4400C2DFB3 /* QuesrionViewController.swift */,
+				E32CB46F264E9E5700C2DFB3 /* FiniishViewController.swift */,
+				E32CB471264E9E6D00C2DFB3 /* AddViewController.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -278,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32CB46C264E9E2100C2DFB3 /* ListTableTableViewController.swift in Sources */,
+				E32CB46E264E9E4400C2DFB3 /* QuesrionViewController.swift in Sources */,
+				E32CB472264E9E6D00C2DFB3 /* AddViewController.swift in Sources */,
 				E32CB439264E941200C2DFB3 /* ViewController.swift in Sources */,
 				E32CB435264E941200C2DFB3 /* AppDelegate.swift in Sources */,
 				E32CB437264E941200C2DFB3 /* SceneDelegate.swift in Sources */,
+				E32CB470264E9E5700C2DFB3 /* FiniishViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
