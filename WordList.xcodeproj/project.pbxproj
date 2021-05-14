@@ -15,6 +15,9 @@
 		E32CB441264E941E00C2DFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E32CB43F264E941E00C2DFB3 /* LaunchScreen.storyboard */; };
 		E32CB44C264E941F00C2DFB3 /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB44B264E941F00C2DFB3 /* WordListTests.swift */; };
 		E32CB457264E941F00C2DFB3 /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB456264E941F00C2DFB3 /* WordListUITests.swift */; };
+		E32CB468264E945D00C2DFB3 /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = E32CB465264E945D00C2DFB3 /* word_blank.png */; };
+		E32CB469264E945D00C2DFB3 /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = E32CB466264E945D00C2DFB3 /* fin.png */; };
+		E32CB46A264E945D00C2DFB3 /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E32CB467264E945D00C2DFB3 /* title_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E32CB452264E941F00C2DFB3 /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32CB456264E941F00C2DFB3 /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		E32CB458264E941F00C2DFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E32CB465264E945D00C2DFB3 /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		E32CB466264E945D00C2DFB3 /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		E32CB467264E945D00C2DFB3 /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +105,13 @@
 		E32CB433264E941200C2DFB3 /* WordList */ = {
 			isa = PBXGroup;
 			children = (
+				E32CB464264E945D00C2DFB3 /* WordList素材 */,
 				E32CB434264E941200C2DFB3 /* AppDelegate.swift */,
 				E32CB436264E941200C2DFB3 /* SceneDelegate.swift */,
 				E32CB438264E941200C2DFB3 /* ViewController.swift */,
+				E32CB43F264E941E00C2DFB3 /* LaunchScreen.storyboard */,
 				E32CB43A264E941200C2DFB3 /* Main.storyboard */,
 				E32CB43D264E941E00C2DFB3 /* Assets.xcassets */,
-				E32CB43F264E941E00C2DFB3 /* LaunchScreen.storyboard */,
 				E32CB442264E941E00C2DFB3 /* Info.plist */,
 			);
 			path = WordList;
@@ -126,6 +133,16 @@
 				E32CB458264E941F00C2DFB3 /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		E32CB464264E945D00C2DFB3 /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				E32CB465264E945D00C2DFB3 /* word_blank.png */,
+				E32CB466264E945D00C2DFB3 /* fin.png */,
+				E32CB467264E945D00C2DFB3 /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +248,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E32CB468264E945D00C2DFB3 /* word_blank.png in Resources */,
+				E32CB46A264E945D00C2DFB3 /* title_logo.png in Resources */,
 				E32CB441264E941E00C2DFB3 /* LaunchScreen.storyboard in Resources */,
 				E32CB43E264E941E00C2DFB3 /* Assets.xcassets in Resources */,
+				E32CB469264E945D00C2DFB3 /* fin.png in Resources */,
 				E32CB43C264E941200C2DFB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6PA69M9QH;
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6PA69M9QH;
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
