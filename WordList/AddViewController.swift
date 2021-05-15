@@ -24,6 +24,9 @@ class AddViewController: UIViewController {
     }
     //保存ボタンが押された時
     @IBAction func seveWord(){
+        if  englishTextField.text!.isEmpty{
+            
+        } else{
         //wordDictionaryに値を入れる
         let wordDictionary = ["english" : englishTextField.text!,
                               "japanese" : japaneseTextField.text!]
@@ -44,6 +47,7 @@ class AddViewController: UIViewController {
         present(alert, animated: true, completion: nil)
         englishTextField.text = ""
         japaneseTextField.text = ""
+        }
     }
 
    
