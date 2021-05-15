@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30E06B1264FB3CD00C14F4C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30E06B0264FB3CD00C14F4C /* ListTableViewCell.swift */; };
 		E32CB435264E941200C2DFB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB434264E941200C2DFB3 /* AppDelegate.swift */; };
 		E32CB437264E941200C2DFB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB436264E941200C2DFB3 /* SceneDelegate.swift */; };
 		E32CB439264E941200C2DFB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32CB438264E941200C2DFB3 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E30E06B0264FB3CD00C14F4C /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		E32CB431264E941200C2DFB3 /* WordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32CB434264E941200C2DFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E32CB436264E941200C2DFB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				E32CB46D264E9E4400C2DFB3 /* QuesrionViewController.swift */,
 				E32CB46F264E9E5700C2DFB3 /* FiniishViewController.swift */,
 				E32CB471264E9E6D00C2DFB3 /* AddViewController.swift */,
+				E30E06B0264FB3CD00C14F4C /* ListTableViewCell.swift */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E32CB46C264E9E2100C2DFB3 /* ListTableTableViewController.swift in Sources */,
+				E30E06B1264FB3CD00C14F4C /* ListTableViewCell.swift in Sources */,
 				E32CB46E264E9E4400C2DFB3 /* QuesrionViewController.swift in Sources */,
 				E32CB472264E9E6D00C2DFB3 /* AddViewController.swift in Sources */,
 				E32CB439264E941200C2DFB3 /* ViewController.swift in Sources */,
